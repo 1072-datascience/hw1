@@ -15,6 +15,8 @@ Your R code should output and round the set name with maximum value for each col
 
 ## Read an input file
 
+Input data will have other numeric & category columns besides weight and height.
+
 examples = input1.csv
 
 ## Output a summary file
@@ -41,15 +43,15 @@ Correct answer gets 9 points of each testing data.
 
 ## Penalty: -2 points of each problem
 
+- Error/Warning message for missing flags (--input + --output) 
 - Arguments order cannot change
 - File path cannot change
 - Wrong set name
 - Wrong column name
 - Not round number to 2 digitals
-- …
 
 ## Note
 
-- Please do not set working directory(setwd) in a fixed folder.
+- Please do not set working directory(setwd) in a fixed folder, i.e., d <- read.csv("D://DataScience/hw1/example/output1.csv")
 - Please do not set input/output in your local path or URL.
 - Input data will have other columns besides weight and height.
