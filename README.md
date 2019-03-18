@@ -52,6 +52,9 @@ Correct answer gets 9 points of each testing data.
 
 ## Note
 
-- Please do not set working directory(setwd) in a fixed folder, i.e., d <- read.csv("D://DataScience/hw1/example/output1.csv")
+- Please do not set working directory(setwd) in a fixed folder
+```R
+d <- read.csv("D://DataScience/hw1/example/output1.csv")
+```
 - Please do not set input/output in your local path or URL.
 - Input data will have other columns besides weight and height.
