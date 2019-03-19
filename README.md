@@ -11,7 +11,7 @@ Rscript hw1_yourID.R --input input1.csv --output output1.csv
 Rscript hw1_yourID.R --output output1.csv --input input1.csv
 ```
 
-Your R code should output and round the set name with maximum value for each column.
+Your R code should output and round the set name with maximum value of weight and height.
 
 ## Read an input file
 
