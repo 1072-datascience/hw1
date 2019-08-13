@@ -34,8 +34,9 @@ Rscript hw1_5566.R --input hw1/data/test.1.csv --output hw1/eval/test1/hw1_001.c
 Rscript hw1_5566.R --output hw1/eval/test2/hw1_002.csv --input hw1/data/test.2.csv
 ```
 Correct answer gets 9 points of each testing data.
-Please do not set input/output in your local path or URL. 
+**Please do not set input/output in your local path or URL.** 
 Otherwise, your code will fail due to fixed path problem.
+
 
 ## Bonus
 
@@ -53,7 +54,7 @@ Otherwise, your code will fail due to fixed path problem.
 
 ## Note
 
-- Please do not set working directory(setwd) in a fixed folder
+- Please do not set working directory(setwd) in a fixed folder. For example,
 ```R
 d <- read.csv("D://DataScience/hw1/example/output1.csv")
 ```
